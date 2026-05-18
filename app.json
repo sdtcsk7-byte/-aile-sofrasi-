@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Aile Sofrası",
+    "slug": "aile-sofrasi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ailesofrasi.app"
+    },
+    "android": {
+      "package": "com.ailesofrasi.app",
+      "permissions": [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "plugins": [
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "16b5c511-c4fc-443d-95a6-2bc16665665b"
+      }
+    }
+  }
+}
